@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+
     <section class="flex flex-col sm:flex-row items-center justify-content-between md:mt-8 mx-auto">
       <div class="mb-4">
         <h1 class="text-2xl ml-6 md:text-6xl mt-8 p-2">Welcome to Proserve</h1>
@@ -8,6 +9,7 @@
         <img :src="require('@/assets/tools.jpeg')" alt="">
       </div>
     </section>
+
     <section class="mt-10 p-4">
       <div class="my-6">
         <h2 class="text-3xl">Premium Property Maintenance</h2>
@@ -33,6 +35,7 @@
           placeat!</p>
       </div>
     </section>
+
   </div>
 </template>
 
